@@ -206,6 +206,15 @@ a {
 				width: 50%;
 			}
 		}
+		a {
+				font-weight: 500;
+				text-decoration: none;
+				color: #2a2f35;
+				font-size: 1.1em;
+				&:hover {
+					color: #33acb7;
+				}
+			}
 	}
 	#page_wrapper {
 		padding: 3em;
